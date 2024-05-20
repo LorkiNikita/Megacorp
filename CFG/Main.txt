@@ -1,0 +1,5 @@
+Data ^{
+    Script ^{
+        Megacorp=1,Script.Megacorp
+    }
+}

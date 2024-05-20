@@ -1,0 +1,3 @@
+Script ^{
+    Megacorp=Mods\OtherMods\Megacorp\Data\Script\Megacorp.scr
+}
