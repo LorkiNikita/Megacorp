@@ -1,0 +1,23 @@
+Megacorp ^{
+    Dialogs ^{
+        CreateNew
+
+        TechniqueFactoryRuinsFirstGreeting=
+        TechniqueFactoryRuinsGreeting=
+
+        FoodFactoryRuinsFirstGreeting=
+        FoodFactoryRuinsGreeting=
+
+        ProcessingPlantRuinsFirstGreeting=
+        ProcessingPlantRuinsGreeting=
+
+        TransitRuinsFirstGreeting=
+        TransitRuinsGreeting=
+
+        MedicalLaboratoryRuinsFirstGreeting=
+        MedicalLaboratoryRuinsGreeting=
+
+        WeaponsFactoryRuinsFirstGreeting=
+        WeaponsFactoryRuinsGreeting=
+    }
+}

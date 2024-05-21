@@ -1,15 +1,15 @@
 {
   "FileID":  573785173,
   "FileVersion":  8,
-  "ViewPos.x":  -601,
-  "ViewPos.y":  -749,
+  "ViewPos.x":  -1014,
+  "ViewPos.y":  -694,
   "ScriptName":  "",
   "ScriptFileOut":  "",
   "ScriptTextOut":  "",
-  "GraphPoint.Count":  122,
+  "GraphPoint.Count":  123,
   "GraphLink.Count":  77,
   "GraphRectText.Count":  13,
-  "Variables.Count":  32,
+  "Variables.Count":  33,
   "Stars.Count":  1,
   "Planets.Count":  1,
   "Ships.Count":  1,
@@ -1574,6 +1574,17 @@
           "Parent":  117,
           "#":  118,
           "Var.Type":  "Str",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "VarNew",
+          "Pos.x":  -500,
+          "Pos.y":  80,
+          "Parent":  -1,
+          "#":  122,
+          "Var.Type":  "Unknown",
           "Init":  "",
           "Global":  false        
         }      
