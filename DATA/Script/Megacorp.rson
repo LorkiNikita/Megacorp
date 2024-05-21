@@ -1,8 +1,8 @@
 {
   "FileID":  573785173,
   "FileVersion":  8,
-  "ViewPos.x":  -1014,
-  "ViewPos.y":  -694,
+  "ViewPos.x":  -821,
+  "ViewPos.y":  -653,
   "ScriptName":  "",
   "ScriptFileOut":  "",
   "ScriptTextOut":  "",
@@ -975,7 +975,7 @@
         {
           "Type":  "Top",
           "Name":  "",
-          "Pos.x":  440,
+          "Pos.x":  450,
           "Pos.y":  -300,
           "Parent":  -1,
           "#":  119,
@@ -1579,14 +1579,14 @@
         },
         {
           "Type":  "TVar",
-          "Name":  "VarNew",
+          "Name":  "GMegacorpCompanyName",
           "Pos.x":  -500,
           "Pos.y":  80,
           "Parent":  -1,
           "#":  122,
-          "Var.Type":  "Unknown",
+          "Var.Type":  "Str",
           "Init":  "",
-          "Global":  false        
+          "Global":  true        
         }      
       ]    
     }  

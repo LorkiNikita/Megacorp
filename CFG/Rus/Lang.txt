@@ -1,6 +1,8 @@
 Megacorp ^{
     Dialogs ^{
-        CreateNew
+        CreateNewCompanyGreeting=
+        CreateNewCompanyGreeting2=
+        CreateNewCompanyGreeting3=
 
         TechniqueFactoryRuinsFirstGreeting=
         TechniqueFactoryRuinsGreeting=
