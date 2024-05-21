@@ -1,13 +1,13 @@
 {
   "FileID":  573785173,
   "FileVersion":  8,
-  "ViewPos.x":  -821,
-  "ViewPos.y":  -653,
+  "ViewPos.x":  -971,
+  "ViewPos.y":  -644,
   "ScriptName":  "",
   "ScriptFileOut":  "",
   "ScriptTextOut":  "",
-  "GraphPoint.Count":  123,
-  "GraphLink.Count":  77,
+  "GraphPoint.Count":  126,
+  "GraphLink.Count":  79,
   "GraphRectText.Count":  13,
   "Variables.Count":  33,
   "Stars.Count":  1,
@@ -18,10 +18,10 @@
   "Places.Count":  0,
   "Items.Count":  0,
   "Ethers.Count":  0,
-  "Dialogs.Count":  7,
-  "DialogMessages.Count":  7,
+  "Dialogs.Count":  8,
+  "DialogMessages.Count":  8,
   "DialogAnswers.Count":  42,
-  "Operations.Count":  16,
+  "Operations.Count":  17,
   "Statements.Count":  1,
   "Loops.Count":  0,
   "Visual.Objects":  
@@ -521,6 +521,16 @@
           "#":  96,
           "Msg":  "",
           "DMsg.Num":  "6"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  0,
+          "Pos.y":  20,
+          "Parent":  124,
+          "#":  125,
+          "Msg":  "",
+          "DMsg.Num":  "7"        
         }      
       ],
       "Dialogs":      
@@ -576,10 +586,18 @@
         {
           "Type":  "TDialog",
           "Name":  "GetMegacorpLicense",
-          "Pos.x":  590,
+          "Pos.x":  910,
           "Pos.y":  -60,
           "Parent":  -1,
           "#":  95        
+        },
+        {
+          "Type":  "TDialog",
+          "Name":  "CreateNewCompany",
+          "Pos.x":  600,
+          "Pos.y":  -60,
+          "Parent":  -1,
+          "#":  123        
         }      
       ],
       "Groups":      
@@ -895,11 +913,12 @@
           "Pos.y":  20,
           "Parent":  95,
           "#":  98,
-          "Total.Lines":  1,
+          "Total.Lines":  2,
           "Code.Type":  "Turn",
           "Code":          
           [
-              "dstr1 = "          
+              "dstr1=",
+              "dstr2="          
           ]        
         },
         {
@@ -979,11 +998,12 @@
           "Pos.y":  -300,
           "Parent":  -1,
           "#":  119,
-          "Total.Lines":  0,
+          "Total.Lines":  2,
           "Code.Type":  "Init",
           "Code":          
           [
-              ""          
+              "GMegacorpLicenseStatus = 0;",
+              "//"          
           ]        
         },
         {
@@ -1012,6 +1032,20 @@
           "Code":          
           [
               ""          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  0,
+          "Pos.y":  20,
+          "Parent":  123,
+          "#":  124,
+          "Total.Lines":  1,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "dstr"          
           ]        
         }      
       ],
@@ -1480,7 +1514,7 @@
         },
         {
           "Type":  "TVar",
-          "Name":  "GMegacorpLicenseStatus",
+          "Name":  "GMegacorpCompanyLicenseStatus",
           "Pos.x":  -670,
           "Pos.y":  80,
           "Parent":  -1,
@@ -1580,7 +1614,7 @@
         {
           "Type":  "TVar",
           "Name":  "GMegacorpCompanyName",
-          "Pos.x":  -500,
+          "Pos.x":  -470,
           "Pos.y":  80,
           "Parent":  -1,
           "#":  122,
@@ -2131,6 +2165,20 @@
       "End":  79,
       "Nom":  0,
       "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  123,
+      "End":  124,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  124,
+      "End":  125,
+      "Nom":  0,
+      "Arrow":  true    
     }  
   ],
   "Rect.Text":  
@@ -2392,7 +2440,7 @@
       "Type":  "TGraphRectText",
       "Rect.Left":  370,
       "Rect.Top":  -9,
-      "Rect.Right":  527,
+      "Rect.Right":  525,
       "Rect.Bottom":  94,
       "FStyle":  1,
       "FColor":  10710818,
